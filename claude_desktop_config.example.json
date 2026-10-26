@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "mcp-server": {
+      "command": "C:/path/to/mcp-server/venv/Scripts/python.exe",
+      "args": ["C:/path/to/mcp-server/hfss_mcp_server.py"],
+      "env": {
+        "ANSYSEM_ROOT261": "C:/Program Files/ANSYS Inc/v261/AnsysEM"
+      }
+    }
+  }
+}
