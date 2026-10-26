@@ -1,5 +1,6 @@
 # ANSYS HFSS MCP Server
-
+> **⚠️ Note:** This repository contains an **architectural demo**. 
+> The complete proprietary algorithms (including parametric geometry generation, Pozar equations, and port alignment) are hidden in this public version. However, the core MCP protocol handling, state management, and async job scheduling architecture are fully functional.
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server that enables AI assistants to interact with **ANSYS HFSS** through natural language commands, powered by [PyAEDT](https://aedt.docs.pyansys.com/) over gRPC.
 
 Design antennas, assign boundaries, run simulations, and retrieve results — all by chatting with Claude.
